@@ -1,0 +1,51 @@
+-- "Clean Code" is a set of principles and practices aimed at writing code that is easy to read, understand,
+and maintain.
+
+        1-Use meaningful names: Choose descriptive names for variables, methods, and classes that accurately
+         convey their purpose and functionality. Avoid using single-letter names or cryptic abbreviations.
+
+        2-Follow proper formatting: Follow standard Java formatting conventions, such as using curly braces
+         on a new line and consistent spacing.(Ctrl+Shift+L in intellij)
+
+        3-Keep methods and classes small: Break down your code into smaller, focused methods and classes that
+         perform a single task. This makes your code easier to understand and maintain. Aim for methods and
+         classes that are no longer than a few dozen lines.
+
+        4-Use comments effectively: Add comments to explain complex logic, assumptions, or any non-obvious
+        code. However, strive to write self-explanatory code that doesn't require excessive comments to
+        understand.
+
+        5-Write self-explanatory code: Someone unfamiliar with the code can understand its purpose.
+
+        6-Avoid duplication: Don't repeat the same code in multiple places. Instead, extract common
+        functionality into reusable methods or classes. This promotes code reusability and reduces the
+        likelihood of introducing bugs when making changes.
+
+        7-Follow the Single Responsibility Principle: Each method and class has a single responsibility and
+        focuses on doing one thing well. This makes your code more modular, testable, and easier to understand.
+
+--"Hard Coding" refers to the practice of directly embedding specific values into your code instead of using variables.
+
+        1-It means explicitly putting the actual values in your code wherever they are needed, without
+        abstraction or flexibility. While it may seem convenient in some cases, hard coding is generally
+        considered a bad practice for several reasons:
+
+        2-Lack of Flexibility: Hard coding makes your code inflexible and difficult to maintain. If you
+        need to change a value, you have to manually search for and modify every occurrence of that value
+        in your code. This can be time-consuming and error-prone.
+
+        Reduced Reusability: Hard coding limits the reusability of your code. If you embed specific values
+        directly into your code, it becomes challenging to reuse that code in different contexts or scenarios.
+        You would have to modify the code for each new situation, leading to duplicated code.
+
+        Code Fragility: Hard coding increases the fragility of your code. If you hard code values that may
+        change over time, such as URLs, file paths, or configuration settings, you'll need to modify the code
+        whenever those values change. This can introduce bugs and make your code more prone to errors.
+
+        Readability and Maintainability: Hard-coded values can make your code less readable and harder to
+        understand. Without proper variable names, it becomes difficult to interpret the purpose or
+        significance of specific values in your code.
+
+        To avoid hard coding, it's better to use variables, constants, or configuration files. By avoiding
+        hard coding and adopting these practices, you'll make your code more flexible, reusable, and maintainable.
+        Your code will be easier to understand, modify, and adapt to different scenarios or requirements.
