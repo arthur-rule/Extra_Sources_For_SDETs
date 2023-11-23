@@ -4,6 +4,7 @@ public class sum {
 
     /*
     In Java, a nested method usually refers to a method that is defined within another method. However, it's important to note that Java does not support true nested methods like some other programming languages (such as Python). In Java, you can declare a method within another method, but it won't be truly nested in the sense of having local scope limited to the outer method.
+
     But If you want to pass a method itself as a parameter to the same method, that is possible:
      */
 
