@@ -22,3 +22,7 @@ public class sum {
         return a+b;
       }
 }
+
+/*
+In this example we are passing sum method  as a parameter to the same method itself(sum)
+ */
