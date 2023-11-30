@@ -1,4 +1,4 @@
-package Java.Extra_Sources;
+package Java.Extra_Sources.Java;
 
 public class sum {
 
