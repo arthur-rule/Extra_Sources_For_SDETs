@@ -1,4 +1,4 @@
-package Java.Extra_Sources.Java;
+package Java.Extra_Sources.Java.If_Statements;
 
 import java.util.Scanner;
 

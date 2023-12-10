@@ -1,4 +1,4 @@
-package Java.Extra_Sources.Java;
+package Java.Extra_Sources.Java.Method;
 
 public class mathAbsMethod {
     public static void main(String[] args) {

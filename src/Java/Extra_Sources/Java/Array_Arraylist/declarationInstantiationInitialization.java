@@ -1,4 +1,4 @@
-package Java.Extra_Sources.Java;
+package Java.Extra_Sources.Java.Array_Arraylist;
 
 public class declarationInstantiationInitialization {
     public static void main(String[] args) {
