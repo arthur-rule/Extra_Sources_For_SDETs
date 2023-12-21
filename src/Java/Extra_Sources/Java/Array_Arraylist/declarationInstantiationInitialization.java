@@ -43,7 +43,7 @@ public class declarationInstantiationInitialization {
         int[] piArray;
 
         /*
-        2.Instantiation:
+        Note2.Instantiation:
         This term is often used in the context of object-oriented programming.
         Instantiation is the creation of an object or an instance of a class.
         It involves using the new keyword followed by a constructor to create
@@ -91,7 +91,7 @@ public class declarationInstantiationInitialization {
 
         piArray[0] = 3;
         piArray[Note1] = Note1;
-        piArray[2] = 4;….and so on until all elements are initialized.
+        piArray[Note2] = 4;….and so on until all elements are initialized.
         The expression in the square brackets above is called the index of the array.
         The index of the array is used to access the actual value of the elements
         i.e. the above array myarray of 10 int elements will have indices numbered
