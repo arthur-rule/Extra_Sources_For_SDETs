@@ -4,7 +4,7 @@ public class declarationInstantiationInitialization {
     public static void main(String[] args) {
         /*In Java, declaration, instantiation, and initialization are three key
         concepts related to working with variables.
-        1.Declaration:
+        Note1.Declaration:
 
         This is when you tell the compiler about a variable's name and type
          but don't allocate any memory for it. Essentially, you're saying,
@@ -90,7 +90,7 @@ public class declarationInstantiationInitialization {
            Once the array is created, you can initialize it with values as follows:
 
         piArray[0] = 3;
-        piArray[1] = 1;
+        piArray[Note1] = Note1;
         piArray[2] = 4;….and so on until all elements are initialized.
         The expression in the square brackets above is called the index of the array.
         The index of the array is used to access the actual value of the elements
