@@ -1,9 +1,8 @@
 package Java.Extra_Sources.Java.Array_Arraylist;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
-public class qa {
+public class printingArray {
     public static void main(String[] args) {
         int[]arr={0,0,0,0};
         int[]arr2=new int[4];
