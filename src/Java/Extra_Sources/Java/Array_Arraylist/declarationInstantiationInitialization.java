@@ -4,7 +4,7 @@ public class declarationInstantiationInitialization {
     public static void main(String[] args) {
         /*In Java, declaration, instantiation, and initialization are three key
         concepts related to working with variables.
-        Note1.Declaration:
+        1.Declaration:
 
         This is when you tell the compiler about a variable's name and type
          but don't allocate any memory for it. Essentially, you're saying,
@@ -43,7 +43,7 @@ public class declarationInstantiationInitialization {
         int[] piArray;
 
         /*
-        Note2.Instantiation:
+        2.Instantiation:
         This term is often used in the context of object-oriented programming.
         Instantiation is the creation of an object or an instance of a class.
         It involves using the new keyword followed by a constructor to create
