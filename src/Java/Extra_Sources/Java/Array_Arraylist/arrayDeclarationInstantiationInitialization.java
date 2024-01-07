@@ -1,6 +1,6 @@
 package Java.Extra_Sources.Java.Array_Arraylist;
 
-public class declarationInstantiationInitialization {
+public class arrayDeclarationInstantiationInitialization {
     public static void main(String[] args) {
         /*In Java, declaration, instantiation, and initialization are three key
         concepts related to working with variables.
