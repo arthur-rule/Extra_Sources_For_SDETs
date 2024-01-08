@@ -53,8 +53,7 @@ public class arrayDeclarationInstantiationInitialization {
         ---How To INSTANTIATE  An Array In Java?
         We have already declared an array in the previous section. But this is just
         a reference.
-        In order to use the above-declared array variable, you need to instantiate it
-        and then provide values for it. The array is instantiated using ‘new’.
+        In order to use the above-declared array variable, you need to instantiate it and then provide values for it. The array is instantiated using ‘new’.
 
         The general syntax of instantiating is as follows:
 
