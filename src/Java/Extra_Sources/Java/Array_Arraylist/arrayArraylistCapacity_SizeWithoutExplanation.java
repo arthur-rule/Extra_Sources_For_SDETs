@@ -8,7 +8,7 @@ public class arrayArraylistCapacity_SizeWithoutExplanation {
     public static void main(String[] args) throws Exception {
 
 
-      String [] a = new String [5];
+        String [] a = new String[5];
         System.out.println("a.length = " + a.length);
         System.out.println("Arrays.toString(a) = " + Arrays.toString(a));
         a[0] = "First Item";
@@ -18,7 +18,9 @@ public class arrayArraylistCapacity_SizeWithoutExplanation {
         a[3]="Fourth Item";
         a[4]="Fifth Item";
         System.out.println("a (after adding five items) = " + Arrays.toString(a));
-        //a[5]="Sixth Item";
+        //a[5]="Sixth Item"; ---->ArrayIndexOutOfBoundsException
+
+        System.out.println("---------------------------------------------------------------------");
 
         ArrayList<Integer> arr=new ArrayList<>();
         System.out.println("The first size of arr after creating= " + arr.size());

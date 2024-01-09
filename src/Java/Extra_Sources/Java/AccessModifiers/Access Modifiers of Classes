@@ -1,0 +1,46 @@
+In Java, classes can also have access modifiers that determine their visibility.
+The access modifiers for classes are similar to those for class members
+(fields and methods). Here are the accessibility levels for classes:
+
+Public:
+A class declared as public is accessible from any other class.
+There are no restrictions on accessing public classes.
+
+public class PublicClass {
+    // Class definition
+}
+
+Default (Package-Private):
+If no access modifier is specified (default), it is also known as package-private.
+A class with default access is accessible only within the same package.
+It is not visible outside the package.
+
+class DefaultClass {
+    // Class definition
+}
+
+Final:
+The final keyword, when applied to a class, indicates that the class cannot be
+subclassed (i.e., it cannot be extended).
+
+public final class FinalClass {
+    // Class definition
+}
+
+Abstract:
+The abstract keyword, when applied to a class, indicates that the class cannot
+be instantiated on its own and must be subclassed.
+
+public abstract class AbstractClass {
+    // Abstract class definition
+}
+
+These access modifiers for classes help in controlling the visibility and usage
+of classes within a program. It's important to choose the appropriate access
+level based on the design and requirements of your application.
+
+
+
+
+
+
