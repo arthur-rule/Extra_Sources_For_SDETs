@@ -31,7 +31,7 @@ Usage example:
         stringBuilder.append(" World");
 
 // Insert at a specific position
-        stringBuilder.insert(5, " Java");
+        stringBuilder.insert(5, " java");
 
 // Delete a range
         stringBuilder.delete(5, 11);

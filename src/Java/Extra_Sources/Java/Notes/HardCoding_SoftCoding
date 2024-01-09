@@ -12,7 +12,7 @@ Writing fixed data, such as hard-coded test cases or sample data, directly into 
 Use of fixed values in control structures, such as conditional statements or loops, in the source code of a program.
 
 What is hard coding in java?
-In Java, hard coding refers to the practice of writing fixed values or data directly into the source code of a program, rather than using variables or other forms of programmatic input.
+In java, hard coding refers to the practice of writing fixed values or data directly into the source code of a program, rather than using variables or other forms of programmatic input.
 If we want to make the program more flexible and allow it to perform the same operation with different input values, we can use programmatic input, such as command line arguments or user input, instead of hard-coded values.
 
 How does hard coding differ from soft coding?

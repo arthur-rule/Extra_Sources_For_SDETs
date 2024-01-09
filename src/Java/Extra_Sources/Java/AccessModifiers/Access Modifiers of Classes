@@ -1,4 +1,4 @@
-In Java, classes can also have access modifiers that determine their visibility.
+In java, classes can also have access modifiers that determine their visibility.
 The access modifiers for classes are similar to those for class members
 (fields and methods). Here are the accessibility levels for classes:
 

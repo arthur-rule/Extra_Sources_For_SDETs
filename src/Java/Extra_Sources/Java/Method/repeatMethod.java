@@ -17,7 +17,7 @@ public class repeatMethod {
   It can also be used there in the following way:
   */
 
-        String str = "Java";
+        String str = "java";
         String result = "";
         for (int i = 0; i < str.length(); i++) {
             result+=(""+str.charAt(i)).repeat(2);

@@ -4,7 +4,7 @@ and maintain.
         1-Use meaningful names: Choose descriptive names for variables, methods, and classes that accurately
          convey their purpose and functionality. Avoid using single-letter names or cryptic abbreviations.
 
-        2-Follow proper formatting: Follow standard Java formatting conventions, such as using curly braces
+        2-Follow proper formatting: Follow standard java formatting conventions, such as using curly braces
          on a new line and consistent spacing.(Ctrl+Shift+L in intellij)
 
         3-Keep methods and classes small: Break down your code into smaller, focused methods and classes that

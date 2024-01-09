@@ -1,6 +1,6 @@
-In Java, access modifiers are keywords that determine the visibility or
+In java, access modifiers are keywords that determine the visibility or
 accessibility of classes, methods, and other members within a program.
-There are four access modifiers in Java:
+There are four access modifiers in java:
 
 Public:
 Members declared as public are accessible from any other class.

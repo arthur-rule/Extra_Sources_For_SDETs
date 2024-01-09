@@ -187,7 +187,7 @@ What should we pay attention in a Selenium method?
 
 Thread.sleep()
 	- This is not Selenium method.
-	- It comes from Java, and it will basically stop the execution of the code for given duration.
+	- It comes from java, and it will basically stop the execution of the code for given duration.
 	- If we pass 2000 milliseconds, it will wait/stop for 2 seconds.
 
 

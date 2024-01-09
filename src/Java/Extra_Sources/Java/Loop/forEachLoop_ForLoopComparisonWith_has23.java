@@ -1,6 +1,6 @@
 package Java.Extra_Sources.Java.Loop;
 
-public class forEachLoop_ForLoopComparisionWith_has23 {
+public class forEachLoop_ForLoopComparisonWith_has23 {
 
     //Create a method which is named has23. This method will accept an int array which has length of 2 and it will return true if it contains a2 or a3
     public static void main(String[] args) {
