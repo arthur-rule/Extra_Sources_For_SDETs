@@ -35,6 +35,7 @@ public abstract class AbstractClass {
     // Abstract class definition
 }
 
+
 These access modifiers for classes help in controlling the visibility and usage
 of classes within a program. It's important to choose the appropriate access
 level based on the design and requirements of your application.
