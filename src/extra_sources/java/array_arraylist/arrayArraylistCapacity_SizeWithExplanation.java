@@ -7,6 +7,7 @@ import java.util.Arrays;
 public class arrayArraylistCapacity_SizeWithExplanation {
     public static void main(String[] args) throws Exception {
 
+
           /*Array Length vs. Capacity
           Actually in array there is no difference about capacity and size or length*/
         String [] a = new String [5]; //while we are creating array we need to specify length.
