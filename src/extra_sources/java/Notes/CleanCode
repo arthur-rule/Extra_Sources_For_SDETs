@@ -1,4 +1,4 @@
--- "Clean Code" is a set of principles and practices aimed at writing code that is easy to read, understand,
+ -- "Clean Code" is a set of principles and practices aimed at writing code that is easy to read, understand,
 and maintain.
 
         1-Use meaningful names: Choose descriptive names for variables, methods, and classes that accurately
@@ -24,7 +24,7 @@ and maintain.
         7-Follow the Single Responsibility Principle: Each method and class has a single responsibility and
         focuses on doing one thing well. This makes your code more modular, testable, and easier to understand.
 
---"Hard Coding" refers to the practice of directly embedding specific values into your code instead of using variables.
+ --"Hard Coding" refers to the practice of directly embedding specific values into your code instead of using variables.
 
         1-It means explicitly putting the actual values in your code wherever they are needed, without
         abstraction or flexibility. While it may seem convenient in some cases, hard coding is generally
