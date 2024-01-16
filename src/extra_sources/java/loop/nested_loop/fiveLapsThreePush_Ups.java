@@ -1,4 +1,4 @@
-package Java.Extra_Sources.Java.Loop;
+package extra_sources.java.loop.nested_loop;
 
 public class fiveLapsThreePush_Ups {
 
