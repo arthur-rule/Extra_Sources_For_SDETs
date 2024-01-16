@@ -12,9 +12,9 @@ public class forEachLoop_ForLoopComparisonWith_has23 {
         //solution1
         // return nums[0]==2 || nums[0]==3 ||  nums[1]==2 || nums[1]==3;
 
-        //Lets say  we do not know exact length of Array ==> For Each Loop
+        //Lets say  we do not know exact length of Array ==> For Each loop
 
-  /*				 For Each Loop
+  /*				 For Each loop
 ------------->What is the  for each loop in java?
 For-each is another array traversing technique like for loop, while loop,
 do-while loop introduced in Java5.
@@ -45,7 +45,7 @@ It’s commonly used to iterate over an array
 In Java, both the for loop and foreach loop are used for iteration, but they have
 some differences in their syntax and use cases.
 
----->For Loop:
+---->For loop:
 	The for loop is a general-purpose loop that allows you to specify the initialization,
 	termination condition, and increment (or decrement) of a loop variable explicitly.
 	It has the following syntax:
@@ -63,7 +63,7 @@ some differences in their syntax and use cases.
 	the value of i is incremented by 1.
 
 
----->Foreach Loop (Enhanced for loop):
+---->Foreach loop (Enhanced for loop):
 	The foreach loop, also known as the enhanced for loop, is a specialized loop
 	for iterating over collections such as arrays, lists, or other Iterable objects.
 	It simplifies the process of iterating through elements without needing
