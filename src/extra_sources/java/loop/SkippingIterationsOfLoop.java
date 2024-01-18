@@ -1,6 +1,6 @@
 package extra_sources.java.loop;
 
-public class skippingIterationsOfLoop {
+public class SkippingIterationsOfLoop {
     public static void main(String[] args) {
 
         for (int i = 0; i < 10; i++) {

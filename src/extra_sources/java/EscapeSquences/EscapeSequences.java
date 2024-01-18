@@ -1,6 +1,6 @@
 package Java.Extra_Sources.Java.EscapeSquences;
 
-public class escapeSequences {
+public class EscapeSequences {
             public static void main(String[] args) {
             // Newline
             System.out.println("Hello\nWorld");
