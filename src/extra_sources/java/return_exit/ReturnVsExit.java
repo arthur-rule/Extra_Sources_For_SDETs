@@ -10,8 +10,6 @@ public class ReturnVsExit {
         System.out.println("Test Completed");
 
     }
-
-
     public static void methodA(){
         System.out.println("Method A is being executed");
         return;
