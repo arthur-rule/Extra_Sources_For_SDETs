@@ -24,7 +24,6 @@ Not Synchronized: Unlike StringBuffer, which is a similar class but is synchroni
 Usage example:
 
          */
-
         java.lang.StringBuilder stringBuilder= new java.lang.StringBuilder("Hello");
 
 // Append to the end
