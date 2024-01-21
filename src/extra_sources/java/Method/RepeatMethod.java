@@ -1,6 +1,6 @@
 package Java.Extra_Sources.Java.Method;
 
-public class repeatMethod {
+public class RepeatMethod {
     public static void main(String[] args) {
           /*
   In Java, the repeat method is not a standard method provided by the Java language itself.
