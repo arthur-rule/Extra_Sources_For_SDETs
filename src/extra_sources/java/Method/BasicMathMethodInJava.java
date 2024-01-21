@@ -1,6 +1,6 @@
 package Java.Extra_Sources.Java.Method;
 
-public class basicMathMethodInJava {
+public class BasicMathMethodInJava {
     public static void main(String[] args) {
         /*
 
