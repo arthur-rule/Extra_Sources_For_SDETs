@@ -34,7 +34,6 @@ public class SkippingIterationsOfLoop {
         for ( int i = 0; i < 10; i++) {
             if (i == 5) i = 8;//if i is 5 then directly jump to 8 and skip 5.6.7. steps
             System.out.println(i);
-
         }
         System.out.println(":::::::::::::::::::::::::::::::::::::::::::::::");
         //is it possible to increase/decrease more than one in loop?
