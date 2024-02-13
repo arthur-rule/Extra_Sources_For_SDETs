@@ -1,0 +1,246 @@
+Note1
+
+
+
+
+===========================================================================
+
+
+1- What is HTML?
+	- Hypertext Markup Language
+	- HTML is not a programming language.
+	- It is a markup language.
+
+
+===========================================================================
+2- What makes a markup language?
+	- MARK UP TAGS
+
+3- What is a mark up TAG?
+	- It acts like a container.
+	- Tags will determine the behavior of a web element.
+
+
+
+===========================================================================
+
+4- How many types of mark up tags we have?
+	- Two types of tags.
+
+	#1 - Paired Tags:
+		- It consists of 2 parts.
+
+		syntax:
+
+		<openingTag> CONTENT/TEXT </closingTag>
+
+		ex: p, h1-h6, div, head, body, table, ul, li, select, a
+
+	#2 - Unpaired Tags:
+		- Self-closing tags.
+		- It consists of 1 part.
+
+		syntax:
+
+		</selfClosingTag >
+
+		ex: br, hr, input, img
+
+
+
+
+
+===========================================================================
+5- What is a web element?
+	- Everything we see on a web page is a WEB ELEMENT.
+	- Such as: links, buttons, texts
+
+===========================================================================
+6- What is attribute?
+	- Attributes provide additional information about specific web element.
+    - Attributes go inside of the OPENING TAG ONLY. 
+    - If it is an unpaired tag/self closing tag it will go inside of the tag itself.
+    - A web element can have as many attributes as needed. Number is not limited.
+
+ex: 
+    <div style="color:red;"> content </div>
+    
+    <img src="cyberTruckimage.png">
+
+
+	<a href="https://www.google.com"> google </a>
+	</img src="">
+
+===========================================================================
+
+PRACTICE:
+
+    <a href="https://www.etsy.com"> ETSY - SELL YOUR COOKIES </a>
+	<-----------opening tag-------> 						 </closingTag>
+
+#1- WHAT IS THE TEXT OF THIS TAG? WHAT IS THE CONTENT, WHAT IS DISPLAYED ON THE PAGE?
+
+-->	"ETSY - SELL YOUR COOKIES"
+
+#2- WHAT IS THE ATTIRBUTE OF THIS WEB ELEMENT?
+
+-->	href
+
+#3- WHAT IS THE ATTRIBUTE VALUE OF HREF?
+
+-->	https://www.etsy.com
+
+#4- WHAT IS THE TYPE OF THIS TAG?
+
+-->	a
+
+===========================================================================
+
+TELLING WHAT IS WHAT FROM THE COLORS:
+
+PURPLE	: TAG NAME
+ORANGE	: ATTRIBUTE NAME
+BLUE	: ATTRIBUTE VALUE
+BLACK	: TEXT OF THE WEB ELEMENT
+
+
+===========================================================================
+
+What is Maven?
+	- A "build" automation tool.
+
+What is a build?
+	- A build is some repeated steps when we create a project and deploy it.
+	- There is something called "a build life cycle"
+
+- Maven is not a tool for TESTERS.
+
+ - selenium-project
+ 	- src
+ 		- main : developers write their application code in this folder
+ 		- test : developers write their tests
+ 	- pom.xml  : this file is the most important file in a maven project.
+ 		- we can control (add, remove, change) our dependencies and their versions.
+
+ 		- .idea  : IntelliJ is keeping the project preferences in this folder
+ 		- target : The compiled code of our project is kept in this folder.
+ 			- We won't see this folder unless we run our code, and we turn the setting from the "gear icon."
+ 				- gear icon > tree appearance > show excluded files
+
+
+===========================================================================
+
+What should we pay attention in a Selenium method?
+1- What does this method do?
+2- What does this method return? Does it have a return type?
+3- Does it accept argument?
+4- Does it throw a specific EXCEPTION?
+
+===========================================================================
+
+--> .get(STRING URL) method?
+
+	1- What does this method do?
+		- This method will get the given URL in an already opened browser.
+
+	2- Does it have a return type?
+		- This method does not have a return type.
+
+	3- Does it accept argument?
+		- Yes.
+		- It accepts a String arg for URL.
+
+	4- Does it throw a specific EXCEPTION?
+		- IllegalArgumentException if not provided with correct https:// URL
+
+===========================================================================
+
+--> Basic navigations:
+
+	- We combine .navigate() method with some other methods to achieve basic navigations.
+
+	- navigate().forward(); --> this will go to forward page (if any)
+	- navigate().back();	--> this will go to back page (if any)
+	- navigate().refresh(); --> this will refresh the page
+	- navigate().to(URL)	--> this will go to given URL (just like .get() method)
+
+
+===========================================================================
+
+--> .getTitle();
+
+	1- What does this method do?
+		- This method will get the title of the current page.
+
+	2- What does this method return? Does it have a return type?
+		- Yes, it returns a String.
+		- It will return the current title as a String.
+
+	3- Does it accept argument?
+		- No, it doesn't accept any arguments.
+
+	4- Does it throw a specific EXCEPTION?
+		- No.
+
+
+===========================================================================
+
+Thread.sleep()
+	- This is not Selenium method.
+	- It comes from java, and it will basically stop the execution of the code for given duration.
+	- If we pass 2000 milliseconds, it will wait/stop for 2 seconds.
+
+
+===========================================================================
+
+- .getCurrentUrl();
+
+	1- What does this method do?
+		- It will get the URL of the current page.
+
+	2- What does this method return? Does it have a return type?
+		- Yes. It will return a String.
+		- It will return the current URL as a String.
+
+	3- Does it accept argument?
+		- No. It doesn't accept any argument.
+
+	4- Does it throw a specific EXCEPTION?
+		- No.
+
+
+===========================================================================
+
+- driver.manage().window().maximize();
+
+	- this line will maximize the currently opened browser.
+	- this is the line that will work for both Mac and Windows.
+
+- driver.manage().window().fullscreen();
+	- this usually just works for Mac, because only Mac has "fullscreen" functionality.
+
+
+===========================================================================
+
+- driver.close();
+	- this method will close the currently focused window/tab
+
+- driver.quit();
+	- this will close all of the currently opened windows/tabs
+	- this will also end the session.
+
+- but if we have just 1 window open, both will just close that window.
+
+===========================================================================
+
+What is a session?
+	- A new session is created every time we run our selenium code.
+	- We can end the session using driver.quit() method, or it will naturally end when the code execution is done.
+
+
+	4435741da99f778a4f20f537ed796993
+	3bd91c488ca90d19c1b6b7f9c234562a
+
+
+===========================================================================
+

@@ -1,0 +1,8 @@
+Parameter / Argument
+• A parameter act as inputs for a method. When a method is created it is
+possible to define certain variables that are used within the method.
+Parameters are local variables to the method
+• An argument is the actual value given when calling the method. When you
+want to use a method, if there was a parameter defined it means an
+argument must be provided matching the defined datatype for the
+program to compile and run
