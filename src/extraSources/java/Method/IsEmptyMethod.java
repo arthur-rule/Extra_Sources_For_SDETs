@@ -1,4 +1,4 @@
-package extra_sources.java.Method;
+package extraSources.java.Method;
 
 public class IsEmptyMethod {
     public static void main(String[] args) {
