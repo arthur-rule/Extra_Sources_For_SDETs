@@ -1,4 +1,4 @@
-package extra_sources.java.loop;
+package extraSources.java.loop;
 
 public class SkippingIterationsOfLoop {
     public static void main(String[] args) {
