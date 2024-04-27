@@ -1,4 +1,4 @@
-package extra_sources.java.loop.nested_loop;
+package extraSources.java.loop.nested_loop;
 
 public class counter {
     public static void main(String[] args) {
