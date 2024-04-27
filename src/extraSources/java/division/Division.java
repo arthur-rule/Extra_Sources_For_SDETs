@@ -1,4 +1,4 @@
-package extra_sources.java.division;
+package extraSources.java.division;
 
 public class Division {
     public static void main(String[] args) {
