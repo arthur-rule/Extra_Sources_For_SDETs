@@ -1,4 +1,4 @@
-package extra_sources.java.return_exit;
+package extraSources.java.return_exit;
 
 public class ReturnVsExit {
     public static void main(String[] args) {
