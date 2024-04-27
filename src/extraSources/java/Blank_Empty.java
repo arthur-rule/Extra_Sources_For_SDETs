@@ -1,4 +1,4 @@
-package extra_sources.java;
+package extraSources.java;
 
 public class Blank_Empty {
     public static void main(String[] args) {
