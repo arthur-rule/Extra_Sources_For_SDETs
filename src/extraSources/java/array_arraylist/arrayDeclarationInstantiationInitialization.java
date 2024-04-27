@@ -1,4 +1,4 @@
-package extra_sources.java.array_arraylist;
+package extraSources.java.array_arraylist;
 
 public class arrayDeclarationInstantiationInitialization {
     public static void main(String[] args) {
