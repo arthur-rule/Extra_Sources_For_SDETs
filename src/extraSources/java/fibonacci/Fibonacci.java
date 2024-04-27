@@ -1,4 +1,4 @@
-package extra_sources.java.fibonacci;
+package extraSources.java.fibonacci;
 
 public class Fibonacci {
     public static void main(String[] args) {
