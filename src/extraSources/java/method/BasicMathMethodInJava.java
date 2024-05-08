@@ -5,7 +5,7 @@ public class BasicMathMethodInJava {
         /*
 
         Basic Math methods in Java
-Method	Descriptions:
+method	Descriptions:
 Math.abs()	It will return the Absolute value of the given value.
 Math.max()	It returns the Largest of two values.
 Math.min()	It is used to return the Smallest of two values.
@@ -16,7 +16,7 @@ Math.random()	It returns a double value with a positive sign, greater than or eq
 
          */
 
-        //Method Examples:
+        //method Examples:
         System.out.println("Math.abs(-Note1) = " + Math.abs(-1));
         System.out.println("Math.max(Note1,3) = " + Math.max(1, 3));
         System.out.println("Math.round(Note1.5) = " + Math.round(1.5));
