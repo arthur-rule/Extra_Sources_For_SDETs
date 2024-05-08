@@ -1,4 +1,4 @@
-package extraSources.java.Method;
+package extraSources.java.method;
 
 public class MathPowMethod {
     public static void main(String[] args) {
