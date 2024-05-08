@@ -9,7 +9,7 @@ public class Fibonacci {
 
     public static int fibonacci(int n) {
 
-  /*Recursion in Java refers to the process in which a method calls itself either
+  /*recursion in Java refers to the process in which a method calls itself either
   directly or indirectly to solve a problem. In a recursive method, the solution
   to a problem is expressed in terms of simpler instances of the same problem.
   The base case(s) defines the condition under which the recursion stops, preventing
