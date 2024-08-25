@@ -19,6 +19,19 @@ public class counter {
 //        something to see how it works. Let's take the example of this loop.
 //        Once all that is clear on your mind, you can decide how your nested loop will be like.
 //        What variables need to be used in the outer loop, and what variables for the inner loop.
+/*
+0      0
+0      1
+0      2
+0      3
+0      4
+0      5
+0      6
+0      7
+0      8
+0      9
+1      0
+ */
 
 
 

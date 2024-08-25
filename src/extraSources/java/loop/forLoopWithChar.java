@@ -1,4 +1,4 @@
-package Java.Extra_Sources.Java.Loop;
+package extraSources.java.loop;
 
 public class forLoopWithChar {
     public static void main(String[] args) {
