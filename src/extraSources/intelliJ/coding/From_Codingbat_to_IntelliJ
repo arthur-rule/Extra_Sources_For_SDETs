@@ -1,0 +1,8 @@
+From_Codingbat_to_IntelliJ:
+	--To test/run any of the methods in IntelliJ you need to:
+       -First create a main method
+       -Then copy your codes from codingbat to IntelliJ
+       -Then make the custom method static
+       -Then call the your custom method inside main method and give appropriate arguments
+       -And print your method to see solution on console
+

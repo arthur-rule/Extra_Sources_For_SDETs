@@ -1,0 +1,42 @@
+-- "Positive & Negative Testing"
+
+Summary:
+Testing software is crucial to ensure it works well without bugs.
+
+Positive testing also known as "happy path" testing, checks if the software behaves as expected under normal conditions, like testing login with correct credentials. It helps ensure everything runs smoothly and validates the system's standard operations.
+
+On the other hand, negative testing checks how the software handles unexpected situations and invalid inputs, like incorrect passwords or special characters. This type of testing helps uncover errors or vulnerabilities, making the software more robust and reliable.
+
+Both positive and negative testing are essential in ensuring software quality. Positive testing ensures the software meets its requirements, while negative testing helps find and fix potential issues early on.
+
+
+
+
+
+Testing any software is essential to deliver quality software and ensure a bug-free working.Hence, using both the positive testing and negative testing techniques give enough assurance about the quality of the product.
+
+-- "Positive Testing"
+Positive testing is a method of checking if the application does what it is expected to do.
+When a software tester writes the test cases for a set of specified outputs, it is called as a positive test. The idea here is to make sure that the system accepts inputs for the normal use by the user.
+For example, checking the system for a user name and password combination to login is a way of positive testing.
+Any software system is highly vulnerable to inappropriate data. This seems scary, isn’t it?
+The end users sooner or later always find a way to divert from the ethical ways, which is dangerous and risky.
+The positive testing helps the administrators to quickly understand & learn these practices to fix issues in no time.
+Positive testing also facilitates the sharing of knowledge on system architecture since the projects are started small and tested thoroughly through all the phases of SDLC.
+
+(Positive testing, also known as "happy path" testing, focuses on validating that a system behaves as expected under normal or expected conditions. In positive testing, testers verify that the software functions correctly and produces the desired output when provided with valid input. The goal is to ensure that the system works as intended and meets the specified requirements. Positive testing typically includes scenarios where the system performs standard operations and processes valid data.
+For example, if testing a login functionality, positive testing would involve entering valid credentials and checking if the system successfully authenticates the user and grants access to the application.)
+
+-- "Negative Testing"
+Since positive testing is carried out against the valid inputs, negative testing is just the opposite.
+The application is validated against the invalid inputs. The objective behind this is to make sure the system shows an error when it’s supposed to and does not show an error when it’s not supposed to.
+Whenever a tester thinks about the test cases, he first thinks about the positive inputs.
+It is always very essential to know why negative testing is important. It is considered as a crucial factor in test case execution.
+It is interesting to note that negative testing is done to break the project with respect to its different test conditions.
+This gives the tester a vision to test for scenarios that are not designed and provides an invalid set of input.
+(Negative testing, on the other hand, aims to identify potential issues or vulnerabilities by intentionally subjecting the software system to invalid or unexpected conditions. The goal is to uncover any errors, exceptions, or unexpected behaviors that could occur when the system encounters invalid input, error conditions, or unusual scenarios. Negative testing helps improve the robustness and reliability of the software.
+For example, in negative testing of a login functionality, testers might deliberately enter incorrect usernames or passwords, use special characters, exceed input limits, or leave fields blank to ensure that the system handles such cases appropriately by displaying error messages or denying access.
+
+The key difference between positive and negative testing lies in the types of inputs and scenarios tested. Positive testing verifies expected behavior, while negative testing explores unexpected scenarios and invalid inputs to identify weaknesses in the system.
+
+It's important to incorporate both positive and negative testing techniques into a comprehensive testing strategy to achieve thorough test coverage and improve the overall quality of the software.)
