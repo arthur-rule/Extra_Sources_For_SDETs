@@ -1,0 +1,33 @@
+
+What does "hard coding" mean?
+Hardcoding is writing code that is not easily modified or reused.
+A hard coded information cannot be easily changed without changing the source code of the program itself.
+For example, if a programmer writes a program to perform a specific task and hard codes the input data into the program, the program can only perform the task with that specific input data.
+
+Where is hardcode used?
+Hardcoding is used in various programming languages and contexts and is generally used when a fixed value or unit of data must be used in a program.
+Some common examples of hardcoding are:
+Storage of fixed configuration values, such as database connection strings or server addresses, in the source code of a program
+Writing fixed data, such as hard-coded test cases or sample data, directly into the source code of a program
+Use of fixed values in control structures, such as conditional statements or loops, in the source code of a program.
+
+What is hard coding in java?
+In java, hard coding refers to the practice of writing fixed values or data directly into the source code of a program, rather than using variables or other forms of programmatic input.
+If we want to make the program more flexible and allow it to perform the same operation with different input values, we can use programmatic input, such as command line arguments or user input, instead of hard-coded values.
+
+How does hard coding differ from soft coding?
+The main difference between hard coding and soft coding is the way data is stored and accessed in a program. In hard coding, fixed values or data are written directly into the source code of a program, whereas in soft coding, data or configuration information is stored in a separate location, such as a configuration file or database, and read into the program at runtime.
+
+Why hard coding is bad practice?
+
+a.Lack of Flexibility: Hard-coded values are fixed and cannot be easily changed without modifying the source code. This makes the program less adaptable to different scenarios and changing requirements. If you need to adjust a value, you have to go into the code and make changes, which can be error-prone and time-consuming.
+
+b.Maintenance Issues: Hard-coded values can lead to maintenance headaches. When you hard code values, it becomes more challenging to keep the codebase up to date, especially as requirements change or when multiple parts of the code depend on the same hard-coded value. This can result in a higher likelihood of introducing bugs during maintenance.
+
+c.Code Duplication: Hard coding values can lead to code duplication. If the same value is used in multiple places, you may find yourself copying and pasting that value throughout the code. This can make the code longer and harder to maintain, and if the value ever needs to change, you would have to update it in multiple locations.
+
+d.Reduced Reusability: Code with hard-coded values is less reusable. Ideally, you want your code to be as modular and flexible as possible so that you can reuse functions, classes, or modules in different parts of your project or in different projects. Hard-coded values limit the reusability of your code because they tie the code to specific circumstances.
+
+e.Testing Challenges: Hard-coded values can make testing more difficult. When values are hard-coded, you can't easily substitute different values for testing purposes. This can hinder the creation of unit tests and make it harder to verify the correctness of your code.
+
+f.Debugging Difficulties: When an issue arises related to a hard-coded value, it can be more challenging to identify the source of the problem, especially in larger codebases. You have to manually search for and inspect every instance where that value is used.

@@ -1,0 +1,43 @@
+The roles of QA (Quality Assurance) engineers and SDETs (Software Development Engineers in Test) in the preparation of requirements and the creation of test cases can vary depending on the organization and the project. However, generally speaking, here are their typical responsibilities:
+
+    Understanding Requirements:
+
+QA engineers and SDETs collaborate closely with product managers, business analysts, and developers to understand the requirements of the software being developed.
+They analyze requirements documents, user stories, and other relevant materials to gain a comprehensive understanding of what needs to be tested.
+
+    Reviewing Requirements:
+
+They review requirements to ensure they are clear, complete, and testable.
+QA engineers and SDETs may provide feedback on requirements, suggest changes, or ask for clarification if necessary to ensure that testing efforts align with the intended functionality of the software.
+
+    Contributing to Requirement Refinement:
+
+QA engineers and SDETs may participate in requirement refinement sessions or grooming meetings to provide input from a testing perspective.
+They may identify edge cases, potential risks, or scenarios that need to be considered during testing.
+
+    Creating Test Plans and Strategies:
+
+Based on the requirements, QA engineers and SDETs develop test plans and strategies outlining how the software will be tested.
+They determine the scope of testing, testing methodologies, and any tools or resources needed to execute the tests effectively.
+
+    Designing Test Cases:
+
+QA engineers and SDETs design test cases based on the requirements and test plans.
+Test cases include detailed steps to be executed, expected results, and any necessary test data or preconditions.
+
+    Automating Tests (for SDETs):
+
+SDETs focus on automating test cases using appropriate test automation frameworks and tools.
+They write code to implement automated tests that verify the functionality of the software, often using techniques such as unit testing, integration testing, and end-to-end testing.
+
+    Executing Tests:
+
+QA engineers and SDETs execute test cases manually or automatically, depending on the nature of the tests.
+They document test results, including any defects or issues encountered during testing.
+
+    Providing Feedback:
+
+Throughout the testing process, QA engineers and SDETs provide feedback to developers, product managers, and other stakeholders.
+They communicate findings, suggest improvements, and collaborate on resolving issues to ensure the quality of the software.
+
+Overall, QA engineers and SDETs play crucial roles in ensuring that software meets quality standards by actively participating in the requirements process and creating effective test cases to validate the functionality of the software.
